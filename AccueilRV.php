@@ -9,7 +9,7 @@ if (!isset($_SESSION['email'])) {
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
-    <link href="InscriptionConnexionRV.css" rel="stylesheet">
+    <link href="AccueilRV.css" rel="stylesheet">
 </head>
 <body>
 <hr>
@@ -19,8 +19,12 @@ if (!isset($_SESSION['email'])) {
 <p>Sur ce site, vous pourrez retrouver de nombreuses informations sur l'oeuvre Ragna Crimson et vous pourrez même commander les tomes officiels.</p>
 <p>Bla bla bla...</p>
 
+<a href ="MusicRV.php"><img src ="img/Music.jpg">Les musiques</a>
+
 </form>
+<hr>
 <a href ="InscriptionRV.php"><p>Revenir à l'inscription</p></a>
 <a href ="Connexionrv.php"><p>Revenir à la connexion</p></a>
+<hr>
 </body>
 </html>
