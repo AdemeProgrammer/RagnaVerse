@@ -14,7 +14,7 @@ if (isset($_POST['mot_de_passe'])){
     $_SESSION['email'] = $connexion['email'];
     $_SESSION['id_inscrit'] = $connexion['id_inscrit'];
     if ($connexion ['email'] == $_POST['email'] && $connexion['mot_de_passe'] == $_POST['mot_de_passe']){
-        header("location:accueil.php");
+        header("location:accueilRV.php");
     }
     else{
         session_destroy();
