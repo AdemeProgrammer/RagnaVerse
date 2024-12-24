@@ -1,7 +1,6 @@
 <?php
 session_start();
 session_destroy();
-var_dump($_POST);
 $inscription = new PDO('mysql:host=localhost;dbname=ragnaverse', 'root', '');
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nom = $_POST['nom'];
