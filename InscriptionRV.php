@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ));
 
     echo "Votre compte a bien été inscrit !";
-    header('Location: exoPDOConnexion.php');
+    header('Location: ConnexionRV.php');
 
 }
 ?>

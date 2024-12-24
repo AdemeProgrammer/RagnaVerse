@@ -18,7 +18,7 @@ if (isset($_POST['mot_de_passe'])){
     }
     else{
         session_destroy();
-        header("location:exoPDOConnexion.php");
+        header("location:ConnexionRV.php");
     }
 }
 ?>
@@ -41,6 +41,6 @@ if (isset($_POST['mot_de_passe'])){
     <input type="password" name="mot_de_passe">
     <input type = "submit" name ="validation">
 </form>
-<a href ="exoPDO.php"><p>Vous n'êtes pas membre du Ragna Verse ?</p></a>
+<a href ="InscriptionRV.php"><p>Vous n'êtes pas membre du Ragna Verse ?</p></a>
 </body>
 </html>
