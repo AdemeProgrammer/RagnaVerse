@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <hr>
 <h1>Inscription</h1>
 <hr>
-<form action ="exoPDO.php" method="post">
+<form action ="InscriptionRV.php" method="post">
     <p>Entrer un nom :</p>
     <input type="text" name="nom">
     <p>Entrer un prenom :</p>
